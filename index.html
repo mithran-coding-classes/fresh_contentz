@@ -8,6 +8,7 @@
 <title> Fresh Contentz</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="shortcut icon" type="image/ico" href="favicon.png">
+<link rel="stylesheet" href="animation.css">
 <style>
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -18,27 +19,35 @@
       to { opacity: 0.5; }
 }
 
-.hover_on:hover + .hover_text{
+.hover_on:hover + .hover_text_b{
 	display: block;
-	color: #fff;
-	
+	color: #ff4500;
 }
 
+.hover_on:hover + .hover_text_o{
+	display: block;
+	color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 80px;
+  }
 </style>
 </head>
 
 <body  >
 	<main role="main" style="background-image: url(user_engagement.jpg);z-index:2;">
-		<section class="jumbotron text-center" style="background-color:rgba(225,69,0,0.8); z-index:10000;">
+		<section class="jumbotron text-center start_screen" >
 
-			<div class="container" style="margin-top:100px;">
+			<div class="container fade_in" style="margin-top:100px;">
 				<h5 style="color:#fff"> Content Creation and Management Services </h5>
-				<h1 style="font-size:100px"> <span style="color:#fff">Fresh </span> Contentz</h1>
+				<h1 style="font-size:80px"> <span style="color:#fff">Fresh </span> Contentz</h1>
 				
 				<div class="row">
 					<div class="col-lg-3"></div>
 					<div class="col-lg-6">
-				<h5> You are here because you are aware 
+				<h5 class="fade_in"> You are here because you are aware 
 quality content is essential to win business.Be it social media or an online course, good content attracts clients and increases customer engagement.
 </h5>
 </div>
@@ -52,7 +61,7 @@ quality content is essential to win business.Be it social media or an online cou
 	<div class="row">
 		
 		<div class="col-lg-1"></div>
-		<div class="col-lg-4">
+		<div class="animation_fade fade_in_v col-lg-4">
 			
 			<svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-bag-check-fill" fill="#000" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
@@ -62,7 +71,7 @@ quality content is essential to win business.Be it social media or an online cou
 
 		</div>
 		<div class="col-lg-2"></div>
-		<div class="col-lg-4" >
+		<div class="animation_fade fade_in_v col-lg-4" >
 			
 			<svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-bag-check-fill" fill="#000" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
@@ -79,7 +88,7 @@ quality content is essential to win business.Be it social media or an online cou
 	<div class="row">
 		
 		<div class="col-lg-1"></div>
-		<div class="col-lg-4">
+		<div class="animation_fade fade_in_v col-lg-4">
 			
 			<svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-bag-check-fill" fill="#000" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
@@ -89,7 +98,7 @@ quality content is essential to win business.Be it social media or an online cou
 
 		</div>
 		<div class="col-lg-2"></div>
-		<div class="col-lg-4" >
+		<div class="animation_fade fade_in_v col-lg-4" >
 			
 			<svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-bag-check-fill" fill="#000" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
@@ -104,23 +113,23 @@ quality content is essential to win business.Be it social media or an online cou
 <section class="jumbotron">
 	<h2 style="color:black;text-align:center"> Our Services</h2>
 	<div class="row">
-		<div class="col-lg-6" style="background:black;margin-top:20px;color:white;text-align: center">
-			<h3 class="hover_on" style="padding-top:20%;padding-left:10%;padding-right:10%"> Web Content </h3>
-			<p class="hover_text" style="padding-bottom:20%">Be it your new website or blogs and social media accounts that require regular content posting, we can assist you with our content writing services,as per your timeline requirements.</p>
+		<div class="hover_on col-lg-6" style="background:black;margin-top:20px;color:white;text-align: center">
+			<h3  style="padding-top:20%;padding-left:10%;padding-right:10%"> Web Content </h3>
+			<p class="hover_text_b" style="padding-bottom:20%">Be it your new website or blogs and social media accounts that require regular content posting, we can assist you with our content writing services,as per your timeline requirements.</p>
 		</div>
-		<div class="col-lg-6" style="background-color:#ff4500;margin-top:20px;text-align:center">
-			<h3 class="hover_on" style="padding-top:20%;padding-left:10%;padding-right:10%"> Educational Content </h3>
-			<p class="hover_text" style="padding-bottom:20%">Be it a training course in python or grade 5 mathematics,  we have a team of experienced professionals who could help you in achieving your objectives.</p>
+		<div class="hover_on col-lg-6" style="background-color:#ff4500;margin-top:20px;text-align:center">
+			<h3 style="padding-top:20%;padding-left:10%;padding-right:10%"> Educational Content </h3>
+			<p class="hover_text_o" style="padding-bottom:20%">Be it a training course in python or grade 5 mathematics,  we have a team of experienced professionals who could help you in achieving your objectives.</p>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-lg-6" style="background:#ff4500;margin-top:20px;color:white;text-align: center">
-			<h3 class="hover_on" style="padding-top:20%;padding-left:10%;padding-right:10%"> ebook publishing </h3>
-			<p class="hover_text" style="padding-bottom:20%">Everyone has got a story to tell or let the world learn from them. Never miss to publish your story or a course even without bigger budget as ebooks with brands like Amazon.	</p>
+		<div class="hover_on col-lg-6" style="background:#ff4500;margin-top:20px;color:black;text-align: center">
+			<h3  style="padding-top:20%;padding-left:10%;padding-right:10%"> ebook publishing </h3>
+			<p class="hover_text_b" style="padding-bottom:20%">Everyone has got a story to tell or let the world learn from them. Never miss to publish your story or a course even without bigger budget as ebooks with brands like Amazon.	</p>
 		</div>
-		<div class="col-lg-6" style="background-color:#000;margin-top:20px;text-align:center;color:white">
-			<h3 class="hover_on" style="padding-top:20%;padding-left:10%;padding-right:10%"> Research Content </h3>
-			<p class="hover_text" style="padding-bottom:20%">Looking for a thoroughly researched content? We can help you with our expertise in market research and survey domains, no matter the type of industry you belog to.</p>
+		<div class="hover_on col-lg-6" style="background-color:#000;margin-top:20px;text-align:center;color:white">
+			<h3 style="padding-top:20%;padding-left:10%;padding-right:10%"> Research Content </h3>
+			<p class="hover_text_0" style="padding-bottom:20%">Looking for a thoroughly researched content? We can help you with our expertise in market research and survey domains, no matter the type of industry you belog to.</p>
 		</div>
 	</div>
 </section>
@@ -143,6 +152,6 @@ quality content is essential to win business.Be it social media or an online cou
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+<script src="fade.js"></script>
 </body>
 </html>
